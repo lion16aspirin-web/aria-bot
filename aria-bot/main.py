@@ -20,6 +20,7 @@ bot = commands.Bot(
 COGS = [
     "modules.status",
     "modules.inventory",   # inventory перед aria — щоб першим перехоплював складові команди
+    "modules.intel",       # intel перед aria — перехоплює ціна/маршрут до Claude
     "modules.aria",
     "modules.missions",
 ]

@@ -7,6 +7,9 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 DATABASE_PATH = os.getenv("DATABASE_PATH", "aria.db")
 
+# UEX Corp API (https://uexcorp.space) — опціонально, без ключа доступні публічні ендпоінти
+UEX_API_KEY = os.getenv("UEX_API_KEY", "")
+
 # Назва каналу де виводяться статуси org
 STATUS_CHANNEL_NAME = os.getenv("STATUS_CHANNEL_NAME", "org-статус")
 # Назва каналу для місій
